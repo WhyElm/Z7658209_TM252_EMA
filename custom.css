@@ -1,0 +1,39 @@
+.header {
+    background-color: #3792B3;
+    color: white;
+}
+.nav-containers, .btn {
+    background-color: #195368;
+    color: white;
+}
+
+.nav-link {
+    color: white;
+    text-align: center;
+}
+
+.btn{
+    border-width: 0.25vw;
+    border-color: white;
+}
+
+h1.header {
+    font-size: 9vw;
+}
+
+.page-content {
+    color: #195368;
+}
+
+form.register {
+    border: 1px solid #3792B3;
+    background-color: lightgrey;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.img {
+
+    width: 100px;
+    height: 100px;
+}
