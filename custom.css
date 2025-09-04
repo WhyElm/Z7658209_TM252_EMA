@@ -32,8 +32,41 @@ form.register {
     padding: 15px;
 }
 
-.img {
+.img-header {
 
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: auto;
+}
+
+.btn-green {
+    border-width: 0.25vw;
+    border-color: darkgreen;
+    background-color: green;
+}
+
+.btn-green:hover {
+    border-width: 0.25vw;
+    border-color: darkgreen;
+    background-color: darkgreen;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.btn-red {
+    border-width: 0.25vw;
+    border-color: darkred;
+    background-color: red;
+}
+
+.btn-red:hover {
+    border-width: 0.25vw;
+    border-color: darkred;
+    background-color: darkred;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+.page-content {
+    max-width: 80%;
 }
