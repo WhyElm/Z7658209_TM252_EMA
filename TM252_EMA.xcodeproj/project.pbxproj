@@ -7,18 +7,16 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		ADBA7A442E69E9F800891C6B /* Edit_existing_news.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = Edit_existing_news.html; sourceTree = "<group>"; };
+		ADBA7A442E69E9F800891C6B /* form.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = form.html; sourceTree = "<group>"; };
 		ADBA7A452E69EE4800891C6B /* custom.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = custom.css; sourceTree = "<group>"; };
-		ADBA7A462E69EE6000891C6B /* ab101.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = ab101.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		ADBA7A3C2E69E8A300891C6B = {
 			isa = PBXGroup;
 			children = (
-				ADBA7A442E69E9F800891C6B /* Edit_existing_news.html */,
+				ADBA7A442E69E9F800891C6B /* form.html */,
 				ADBA7A452E69EE4800891C6B /* custom.css */,
-				ADBA7A462E69EE6000891C6B /* ab101.html */,
 			);
 			sourceTree = "<group>";
 		};

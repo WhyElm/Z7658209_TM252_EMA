@@ -21,6 +21,10 @@ h1.header {
     font-size: 9vw;
 }
 
+h2 {
+    font-size: 3vw;
+}
+
 .page-content {
     color: #195368;
 }
@@ -39,12 +43,15 @@ form.register {
 }
 
 .btn-green {
+    width: 190px;
     border-width: 0.25vw;
     border-color: darkgreen;
     background-color: green;
+    font-size: 18px;
 }
 
 .btn-green:hover {
+    width: 190px;
     border-width: 0.25vw;
     border-color: darkgreen;
     background-color: darkgreen;
@@ -54,12 +61,15 @@ form.register {
 }
 
 .btn-red {
+    width: 190px;
     border-width: 0.25vw;
     border-color: darkred;
-    background-color: red;
+    background-color: #D72414;
+    font-size: 18px;
 }
 
 .btn-red:hover {
+    width: 190px;
     border-width: 0.25vw;
     border-color: darkred;
     background-color: darkred;
