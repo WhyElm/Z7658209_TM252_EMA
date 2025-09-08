@@ -98,32 +98,39 @@
                     <section>
                         <div class="row"><h2>Edit News Item</h2>
                         </div>
+                        <!-- News Article Form  -->
+                        <!-- Currently contains placeholder text. Needs functionality to populate fields with existing article. -->
                         <form action="https://students.open.ac.uk/mct/tm252/reflect/reflect.php" method="POST">
                             <input type="hidden" id="itemId" name="itemId" value="10002000-3000-123456abcdef">
+                            <!-- Subject of Article -->
                             <div class="mb-3 row">
                                 <label for="subject" class="col-sm-4 col-form-label">Subject:</label>
                                 <div class="col-sm-8">
                                 <input type="text" class="form-control" id="subject" name="subject" placeholder="Example News Story">
                                 </div>
                             </div>
+                            <!-- Name of Author -->
                             <div class="mb-3 row">
                                 <label for="author" class="col-sm-4 col-form-label">Author (full name):</label>
                                 <div class="col-sm-8">
                                 <input type="text" class="form-control" id="author" name="author" placeholder="Andrea Fenwick">
                                 </div>
                             </div>
+                            <!-- Publish Date -->
                             <div class="mb-3 row">
                                 <label for="disp-from" class="col-sm-4 col-form-label">Date to be displayed from:</label>
                                 <div class="col-sm-8">
                                 <input type="text" class="form-control" id="disp-from" name="disp-from" placeholder="28/09/2024">
                                 </div>
                             </div>
+                            <!-- Removal Date -->
                             <div class="mb-3 row">
                                 <label for="disp-to" class="col-sm-4 col-form-label">Date to be displayed until:</label>
                                 <div class="col-sm-8">
                                 <input type="text" class="form-control" id="disp-to" name="disp-to" placeholder="15/10/2024">
                                 </div>
                             </div>
+                            <!-- Content of Article -->
                             <div class="mb-3 row">
                                 <label for="content">Content (Max. 200 words):</label>
                             </div>
